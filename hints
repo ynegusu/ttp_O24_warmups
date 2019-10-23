@@ -1,0 +1,8 @@
+-- HINT: For all of these exercises, you'll need to google
+-- *postgres's* standard deviation function.
+-- There's 3, 1 of them doesn't work, and one of them is more
+-- appropriate. Try to pick the best one.
+
+-- hint: see documentation for the standard deviation function:
+-- https://www.postgresql.org/docs/9.1/functions-aggregate.html
+
