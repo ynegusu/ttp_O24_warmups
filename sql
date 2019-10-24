@@ -8,11 +8,16 @@
 -- in our database.
 -- Write down these numbers.
 
-
+select avg(amount),stddev(amount) from payment
+average 645382
+ select stddev(amount ) from payment  
+ 5309942720 
 
 -- 2) Get the average purchase per employee, as well as the standard
--- deviation.
-
+-- deviation
+select avg(staff_id),stddev(staff_id) from payment  where customer_id = staff_id
+avg - 44444444
+stddev - 418330814
 -- Write down these numbers.
 
 -- Based on these numbers, do you think there's any meaningful
@@ -29,8 +34,9 @@
 -- Which customer is the most / least predictable in their behavior?
 -- hint: think about standard deviation.
 
-
-
+ select avg(customer_id) from payment
+7552754
+select stddev(customer_id) from payment  57044092
 
 -- 4) what is the average and standard deviation for the number of 
 -- purchases per customer?
